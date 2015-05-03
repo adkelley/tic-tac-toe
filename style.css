@@ -24,7 +24,7 @@ body {
 
 #header {
     position: relative;
-    width: 30.9em;
+    width: 30.8em;
     text-align: center;
     background: black;
     color: white;
@@ -34,7 +34,7 @@ body {
 }
 
 #panel {
-    width: 30.9em;
+    width: 30.8em;
     height: 5em;
     position: relative;
     top: 5.78em;
@@ -50,15 +50,9 @@ body {
  line-height: 0.8em;
 }
 
-#O {
-}
-
 #tie {
     padding-right: 5.5em;
     padding-left: 3em;
-}
-
-#X {
 }
 
 ul {
