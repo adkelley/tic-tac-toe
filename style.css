@@ -1,15 +1,85 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #board {
   width: 31em;
   height: 30em;
   position: relative;
-  top: 30px;
-  left: 25%;
+  top: 10%;
+  left: 20%;
 }
 
 .box {
-  width: 10em;
-  height: 10em;
-  border: 1px solid black;
-  display: inline-block;
-  margin-bottom: 4px;
+    width: 10em;
+    height: 10em;
+    border: 1px solid black;
+    display: inline-block;
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 10em;
+    background: black;
+    color: white;
+}
+
+#header {
+    position: relative;
+    width: 30.9em;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 4.5em;
+    top: 8%;
+    line-height: 1em;
+}
+
+#panel {
+    width: 30.9em;
+    height: 5em;
+    position: relative;
+    top: 5.78em;
+    left: 20%;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+
+#O, #tie, #X {
+ float: left;
+ padding: 0em 1.6em 0em 1.6em;
+ line-height: 0.8em;
+}
+
+#O {
+}
+
+#tie {
+    padding-right: 5.5em;
+    padding-left: 3em;
+}
+
+#X {
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    line-height: 8px;
+}
+
+li {
+  display: inline;
+  padding: 0 3.8em 0em 2.22em;
+  font-size: 1.5em;
+}
+
+#reset {
+  margin: 1.5em 7em;
+  background: rgb(184, 53, 53);
+  color: white;
+  width: 8em;
+  height: 2em;
+  font-size: 1.25em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
