@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="ttt-jq-refactor.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id='board'>
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+           It prevents the div from collapsing. -->
+      <div id="header" class="box">
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+      <div id="box0" class='box'>&nbsp;</div>
+      <div id="box1" class='box'>&nbsp;</div>
+      <div id="box2" class='box'>&nbsp;</div>
+      <div id="box3" class='box'>&nbsp;</div>
+      <div id="box4" class='box'>&nbsp;</div>
+      <div id="box5" class='box'>&nbsp;</div>
+      <div id="box6" class='box'>&nbsp;</div>
+      <div id="box7" class='box'>&nbsp;</div>
+      <div id="box8" class='box'>&nbsp;</div>
+    </div>
+    <div id="panel">
+      <div id="O">
+        <h3>Player 1 (O)</h3>
+      </div>
+      <div id="tie">
+        <h3>Tie</h3>
+      </div>
+      <div id="X">
+      <h3>Player 2 (X)</h3>
+    </div>
+    <div style="clear:both;" id="results">
+      <ul>
+        <li>0</li>
+        <li>0</li>
+        <li>0</li>
+      </ul>
+    <button id="reset" type="button">Reset</button>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
